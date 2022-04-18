@@ -1,5 +1,5 @@
 
- ul.image_scroll {
+ ul.hs-image-align-none {
     margin: 0;
     padding: 0;
     white-space: nowrap;
@@ -10,7 +10,7 @@
   }
 
 
-ul.image_scroll li {
+ul.hs-image-align-none li {
     display: inline;
     width: 150px;
     height: 150px;
@@ -23,13 +23,13 @@ ul.image_scroll li {
 }
 
 
- ul.image_scroll::-webkit-scrollbar {
+ ul.hs-image-align-none::-webkit-scrollbar {
   -webkit-appearance: none;
   width: 3px;
    height: 10px; 
    background-color: lightgrey; 
 }
- ul.image_scroll::-webkit-scrollbar-thumb {
+ ul.hs-image-align-none::-webkit-scrollbar-thumb {
   border-radius: 4px;
   background-color: grey;
   -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
