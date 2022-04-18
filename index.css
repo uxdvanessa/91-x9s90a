@@ -1,3 +1,36 @@
-h1, h2, h3 {
-  color: red !important
+
+ ul.image_scroll {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    width: 100%;
+    overflow-x: scroll;
+    background-color: white;
+   border-radius: 15px; 
+  }
+
+
+ul.image_scroll li {
+    display: inline;
+    width: 150px;
+    height: 150px;
+  }
+
+.picture_details {
+  height: 550px; 
+  padding: 20px; 
+  border-right: 5px solid white; 
+}
+
+
+ ul.image_scroll::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 3px;
+   height: 10px; 
+   background-color: lightgrey; 
+}
+ ul.image_scroll::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: grey;
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
 }
